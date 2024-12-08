@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ant-py"
+version = "0.0.0"
+description = "Ant colony optimization example written in python3."
+authors = ["Mirumo <mail@miru.cc>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
